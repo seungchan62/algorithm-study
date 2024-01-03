@@ -1,0 +1,2 @@
+print("moon")
+print("greedy")
