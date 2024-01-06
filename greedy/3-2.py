@@ -31,4 +31,5 @@ result *= int(m / k+1)
 result += data[0] * (m % (k + 1))
 
 print(result)
+...
 
