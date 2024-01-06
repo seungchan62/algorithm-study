@@ -27,9 +27,9 @@ data = list(map(int, input().split()))
 data.sort(reverse=True)
 
 result = data[0] * k + data[1]
-result *= int(m / k+1)
+result *= int(m / (k + 1))
 result += data[0] * (m % (k + 1))
 
 print(result)
-...
+
 
