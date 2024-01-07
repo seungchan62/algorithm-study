@@ -1,2 +1,0 @@
-print("moon")
-print("greedy")
