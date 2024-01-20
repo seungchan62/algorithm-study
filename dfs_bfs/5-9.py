@@ -3,7 +3,7 @@
 from collections import deque
 
 def bfs(graph, start, visited):
-  queue = deque([start])
+  queue = deque([start]) # 원소가 있는 큐 생성
   visited[start] = True # visited[start] -> 첫 방문 true
   
   while queue:
